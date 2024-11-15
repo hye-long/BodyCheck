@@ -1,0 +1,435 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/BodySystemSection.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/componenets/Footer.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__zen4V {
+    background-color: #000;
+    color: #999;
+    padding: 100px;
+    display: flex;
+
+}
+
+.Footer_content__M1ItQ {
+    max-width: 1200px;
+    width: 100%;
+    text-align: left;
+
+}
+
+.Footer_title__Qakmu {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.Footer_links__0F_Z_ {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.Footer_link__svdfG {
+    color: #999;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.Footer_link__svdfG:hover {
+    text-decoration: underline;
+}
+
+.Footer_separator__8MkE_ {
+    color: #999;
+    margin: 0 0.5rem;
+}
+
+.Footer_copyright__x463M {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/GraphSection.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.GraphSection_graphSection__BcAs3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.GraphSection_textContainer__Zscxh {
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.GraphSection_title__mR4ZP {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+    padding-left: 0.5rem;
+}
+
+.GraphSection_description__dN_aT {
+    font-size: 1.125rem;
+    color: #666;
+    line-height: 1.5;
+    max-width: 450px;
+    margin-top: 1rem;
+}
+
+.GraphSection_imageContainer__Wc33N {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.GraphSection_computerImage__0uy8m {
+    position: relative;
+    z-index: 1; /* 컴퓨터 이미지를 뒤에 배치 */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.GraphSection_graphWrapper__iUZIm {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.GraphSection_graphImage__ewPiT {
+    width: 45%;
+    padding:30px;
+}
+.GraphSection_graphSection__BcAs3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.GraphSection_textContainer__Zscxh {
+    text-align: center;
+    margin-bottom: 30px;
+    opacity: 0; /* 초기 상태를 0으로 설정 */
+    transform: translateY(20px); /* 살짝 아래에서 시작 */
+    transition: opacity 3s ease, transform 0.5s ease;
+}
+
+.GraphSection_title__mR4ZP {
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.GraphSection_description__dN_aT {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #666;
+}
+
+/* 애니메이션이 적용될 때 스타일 */
+.GraphSection_fadeIn__nZilu {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.GraphSection_imageContainer__Wc33N {
+    position: relative;
+    margin-top: 40px;
+    width: 65% !important;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* 초기 상태를 0으로 설정 */
+    transform: translateY(20px); /* 살짝 아래에서 시작 */
+    transition: opacity 3s ease, transform 0.7s ease;
+}
+
+.GraphSection_computerImage__0uy8m {
+    margin-top: 50px;
+    padding-top: 100px;
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+}
+
+.GraphSection_graphWrapper__iUZIm {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 2;
+}
+
+.GraphSection_graphImage__ewPiT {
+    width: 48%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 애니메이션이 적용될 때 스타일 */
+.GraphSection_slideIn__GFgGQ {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/HeroSection.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.HeroSection_section__zmBSL {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh; /* 100% 차지 */
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.HeroSection_textContainer__nbmG1 {
+    max-width: 800px;
+    margin-left: 30px;
+}
+
+.HeroSection_tagline__7Mfwu {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+}
+
+.HeroSection_mainTitle__ViLaU {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.HeroSection_styledButton__Y_yZq {
+    padding: 15px 30px;
+    font-size: 1em;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+.HeroSection_styledButton__Y_yZq:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.HeroSection_logoImage__Sz6JE {
+    width: 500px;
+    height: 500px;
+    margin-right: 30px;
+
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/RecordSection.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.RecordSection_recordSection__IbAX0 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.RecordSection_images__7ouyK {
+    margin-top:100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.RecordSection_images__7ouyK img {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom:30px;
+}
+
+.RecordSection_recordSectionBackground__nH2Tw {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    height: 100%;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.RecordSection_text__1zISN {
+    max-width: 33%;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align:right;
+    margin-right:10px;
+    margin-top:100px;
+}
+
+.RecordSection_text__1zISN h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.RecordSection_text__1zISN p {
+    white-space: pre-line;  /* 줄바꿈을 유지 */
+    padding-top:30px;
+    font-size: 25px;
+
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/TogetherSection.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.TogetherSection_section__69Sz_ {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.TogetherSection_textContainer__ETWYq {
+    max-width: 40%;
+    margin-right: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4s ease, transform 0.5s ease;
+}
+
+.TogetherSection_title__4q8FB {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    border-left: 5px solid black;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.TogetherSection_description__O4pct {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.TogetherSection_imageContainer__spiGY {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4s ease, transform 0.7s ease;
+}
+
+.TogetherSection_image__AsF4v {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* 애니메이션 클래스 */
+.TogetherSection_fadeIn__DjfnK {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.TogetherSection_slideIn___iwN3 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/WhySection.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/* src/components/WhySection.module.css */
+
+.WhySection_whySectionWrapper__VdwM2 {
+    padding: 40px;
+    background: #f0f0f0;
+    height: 100vh;
+}
+
+.WhySection_columnContainer__a5SXy {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.WhySection_mainTitle__vouMj {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.WhySection_mainText__EzT6x {
+    margin-left: 30px;
+    font-size: 25px;
+    max-width: 35%;
+    margin-bottom: 40px;
+}
+
+.WhySection_columnItem__WlUsa {
+    margin-left: 30px;
+    width: 500px;
+    height: 400px;
+    background: #000;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.WhySection_columnItemVisible__lpftu {
+    opacity: 1;
+    transform: translateY(0);
+}
+

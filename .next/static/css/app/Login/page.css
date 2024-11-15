@@ -1,0 +1,110 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/Login/login.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.login_container__OhWDu {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_title__KjYCG {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login_subtitle__7iR_J {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.login_line__Kg1gz {
+    margin: 20px 0 40px 0;
+    border: 1px solid #CCC;
+}
+
+.login_form__EvtNV {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_field__ZikeC {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.login_input__cillo {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login_inputlabel__n2R_C {
+    margin-bottom: 10px;
+}
+.login_loginButton__7HdwM {
+    margin-top: 70px;
+    padding: 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login_loginButton__7HdwM:hover {
+    background-color: #004494;
+}
+
+.login_emailButton__CFnCR {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    color: black;
+    background-color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+}
+
+
+.login_findAccount__DFh7Z {
+    display: flex;
+    justify-content: space-between; /* 양쪽 끝 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    padding: 5px;
+    margin-top:10px;
+    width: 100%; /* 전체 너비 사용 */
+}
+
+.login_firstMeet__luvhD {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.login_rightLinks__WLd6K {
+    display: flex;
+    align-items: center; /* 수직 가운데 정렬 */
+}
+.login_error__05gti {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: center;
+}
+

@@ -2,6 +2,45 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/BodySystemSection.module.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************************************/
 
+
+.BodySystemSection_bodySystemSection__S5Hrq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff; /* 배경 색상 */
+    padding: 100px;
+    text-align: center;
+}
+
+.BodySystemSection_text__E53cK {
+    max-width: 60%;
+    margin-bottom: 200px;
+}
+
+.BodySystemSection_text__E53cK h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.BodySystemSection_text__E53cK p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.BodySystemSection_image-container__40VXx img {
+    width: 100%;
+    max-width: 600px;
+
+    height:100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/componenets/Footer.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
@@ -55,6 +94,74 @@
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pages/GraphSection.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
+.GraphSection_graphSection__BcAs3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.GraphSection_textContainer__Zscxh {
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.GraphSection_title__mR4ZP {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+    padding-left: 0.5rem;
+}
+
+.GraphSection_description__dN_aT {
+    font-size: 1.125rem;
+    color: #666;
+    line-height: 1.5;
+    max-width: 450px;
+    margin-top: 1rem;
+}
+
+.GraphSection_imageContainer__Wc33N {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.GraphSection_computerImage__0uy8m {
+    position: relative;
+    z-index: 1; /* 컴퓨터 이미지를 뒤에 배치 */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.GraphSection_graphWrapper__iUZIm {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.GraphSection_graphImage__ewPiT {
+    width: 45%;
+    padding:30px;
+}
 .GraphSection_graphSection__BcAs3 {
     display: flex;
     flex-direction: column;
